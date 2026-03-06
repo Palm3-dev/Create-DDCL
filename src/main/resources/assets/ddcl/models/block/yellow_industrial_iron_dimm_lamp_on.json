@@ -1,0 +1,4 @@
+{
+  "parent": "createdeco:block/yellow_industrial_iron_lamp",
+  "render_type": "minecraft:cutout"
+}

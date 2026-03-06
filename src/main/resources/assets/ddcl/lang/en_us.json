@@ -1,0 +1,37 @@
+{
+  "itemGroup.ddcl.main_tab": "Create: DDCL",
+
+
+  "block.ddcl.green_andesite_dimm_lamp": "Dimmable Green Andesite Cage Lamp",
+  "block.ddcl.yellow_andesite_dimm_lamp": "Dimmable Yellow Andesite Cage Lamp",
+  "block.ddcl.red_andesite_dimm_lamp": "Dimmable Red Andesite Cage Lamp",
+  "block.ddcl.blue_andesite_dimm_lamp": "Dimmable Blue Andesite Cage Lamp",
+
+  "block.ddcl.green_iron_dimm_lamp": "Dimmable Green Iron Cage Lamp",
+  "block.ddcl.yellow_iron_dimm_lamp": "Dimmable Yellow Iron Cage Lamp",
+  "block.ddcl.red_iron_dimm_lamp": "Dimmable Red Iron Cage Lamp",
+  "block.ddcl.blue_iron_dimm_lamp": "Dimmable Blue Iron Cage Lamp",
+
+  "block.ddcl.green_industrial_iron_dimm_lamp": "Dimmable Green Industrial Iron Cage Lamp",
+  "block.ddcl.yellow_industrial_iron_dimm_lamp": "Dimmable Yellow Industrial Iron Cage Lamp",
+  "block.ddcl.red_industrial_iron_dimm_lamp": "Dimmable Red Industrial Iron Cage Lamp",
+  "block.ddcl.blue_industrial_iron_dimm_lamp": "Dimmable Blue Industrial Iron Cage Lamp",
+
+  "block.ddcl.green_brass_dimm_lamp": "Dimmable Green Brass Cage Lamp",
+  "block.ddcl.yellow_brass_dimm_lamp": "Dimmable Yellow Brass Cage Lamp",
+  "block.ddcl.red_brass_dimm_lamp": "Dimmable Red Brass Cage Lamp",
+  "block.ddcl.blue_brass_dimm_lamp": "Dimmable Blue Brass Cage Lamp",
+
+  "block.ddcl.green_copper_dimm_lamp": "Dimmable Green Copper Cage Lamp",
+  "block.ddcl.yellow_copper_dimm_lamp": "Dimmable Yellow Copper Cage Lamp",
+  "block.ddcl.red_copper_dimm_lamp": "Dimmable Red Copper Cage Lamp",
+  "block.ddcl.blue_copper_dimm_lamp": "Dimmable Blue Copper Cage Lamp",
+
+  "block.ddcl.green_zinc_dimm_lamp": "Dimmable Green Zinc Cage Lamp",
+  "block.ddcl.yellow_zinc_dimm_lamp": "Dimmable Yellow Zinc Cage Lamp",
+  "block.ddcl.red_zinc_dimm_lamp": "Dimmable Red Zinc Cage Lamp",
+  "block.ddcl.blue_zinc_dimm_lamp": "Dimmable Blue Zinc Cage Lamp"
+
+
+
+}

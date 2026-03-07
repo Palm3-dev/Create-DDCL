@@ -1,0 +1,900 @@
+{
+  "variants": {
+    "facing=down,light_level=0,old=false": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_off",
+      "x": 180,
+      "y": 270
+    },
+    "facing=down,light_level=0,old=true": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_old_off",
+      "x": 180,
+      "y": 270
+    },
+    "facing=down,light_level=1,old=false": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_on",
+      "x": 180,
+      "y": 270
+    },
+    "facing=down,light_level=1,old=true": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_old_on",
+      "x": 180,
+      "y": 270
+    },
+    "facing=down,light_level=10,old=false": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_on",
+      "x": 180,
+      "y": 270
+    },
+    "facing=down,light_level=10,old=true": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_old_on",
+      "x": 180,
+      "y": 270
+    },
+    "facing=down,light_level=11,old=false": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_on",
+      "x": 180,
+      "y": 270
+    },
+    "facing=down,light_level=11,old=true": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_old_on",
+      "x": 180,
+      "y": 270
+    },
+    "facing=down,light_level=12,old=false": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_on",
+      "x": 180,
+      "y": 270
+    },
+    "facing=down,light_level=12,old=true": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_old_on",
+      "x": 180,
+      "y": 270
+    },
+    "facing=down,light_level=13,old=false": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_on",
+      "x": 180,
+      "y": 270
+    },
+    "facing=down,light_level=13,old=true": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_old_on",
+      "x": 180,
+      "y": 270
+    },
+    "facing=down,light_level=14,old=false": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_on",
+      "x": 180,
+      "y": 270
+    },
+    "facing=down,light_level=14,old=true": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_old_on",
+      "x": 180,
+      "y": 270
+    },
+    "facing=down,light_level=15,old=false": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_on",
+      "x": 180,
+      "y": 270
+    },
+    "facing=down,light_level=15,old=true": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_old_on",
+      "x": 180,
+      "y": 270
+    },
+    "facing=down,light_level=2,old=false": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_on",
+      "x": 180,
+      "y": 270
+    },
+    "facing=down,light_level=2,old=true": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_old_on",
+      "x": 180,
+      "y": 270
+    },
+    "facing=down,light_level=3,old=false": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_on",
+      "x": 180,
+      "y": 270
+    },
+    "facing=down,light_level=3,old=true": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_old_on",
+      "x": 180,
+      "y": 270
+    },
+    "facing=down,light_level=4,old=false": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_on",
+      "x": 180,
+      "y": 270
+    },
+    "facing=down,light_level=4,old=true": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_old_on",
+      "x": 180,
+      "y": 270
+    },
+    "facing=down,light_level=5,old=false": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_on",
+      "x": 180,
+      "y": 270
+    },
+    "facing=down,light_level=5,old=true": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_old_on",
+      "x": 180,
+      "y": 270
+    },
+    "facing=down,light_level=6,old=false": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_on",
+      "x": 180,
+      "y": 270
+    },
+    "facing=down,light_level=6,old=true": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_old_on",
+      "x": 180,
+      "y": 270
+    },
+    "facing=down,light_level=7,old=false": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_on",
+      "x": 180,
+      "y": 270
+    },
+    "facing=down,light_level=7,old=true": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_old_on",
+      "x": 180,
+      "y": 270
+    },
+    "facing=down,light_level=8,old=false": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_on",
+      "x": 180,
+      "y": 270
+    },
+    "facing=down,light_level=8,old=true": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_old_on",
+      "x": 180,
+      "y": 270
+    },
+    "facing=down,light_level=9,old=false": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_on",
+      "x": 180,
+      "y": 270
+    },
+    "facing=down,light_level=9,old=true": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_old_on",
+      "x": 180,
+      "y": 270
+    },
+    "facing=east,light_level=0,old=false": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_off",
+      "x": 90,
+      "y": 270
+    },
+    "facing=east,light_level=0,old=true": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_old_off",
+      "x": 90,
+      "y": 270
+    },
+    "facing=east,light_level=1,old=false": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_on",
+      "x": 90,
+      "y": 270
+    },
+    "facing=east,light_level=1,old=true": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_old_on",
+      "x": 90,
+      "y": 270
+    },
+    "facing=east,light_level=10,old=false": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_on",
+      "x": 90,
+      "y": 270
+    },
+    "facing=east,light_level=10,old=true": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_old_on",
+      "x": 90,
+      "y": 270
+    },
+    "facing=east,light_level=11,old=false": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_on",
+      "x": 90,
+      "y": 270
+    },
+    "facing=east,light_level=11,old=true": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_old_on",
+      "x": 90,
+      "y": 270
+    },
+    "facing=east,light_level=12,old=false": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_on",
+      "x": 90,
+      "y": 270
+    },
+    "facing=east,light_level=12,old=true": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_old_on",
+      "x": 90,
+      "y": 270
+    },
+    "facing=east,light_level=13,old=false": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_on",
+      "x": 90,
+      "y": 270
+    },
+    "facing=east,light_level=13,old=true": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_old_on",
+      "x": 90,
+      "y": 270
+    },
+    "facing=east,light_level=14,old=false": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_on",
+      "x": 90,
+      "y": 270
+    },
+    "facing=east,light_level=14,old=true": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_old_on",
+      "x": 90,
+      "y": 270
+    },
+    "facing=east,light_level=15,old=false": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_on",
+      "x": 90,
+      "y": 270
+    },
+    "facing=east,light_level=15,old=true": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_old_on",
+      "x": 90,
+      "y": 270
+    },
+    "facing=east,light_level=2,old=false": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_on",
+      "x": 90,
+      "y": 270
+    },
+    "facing=east,light_level=2,old=true": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_old_on",
+      "x": 90,
+      "y": 270
+    },
+    "facing=east,light_level=3,old=false": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_on",
+      "x": 90,
+      "y": 270
+    },
+    "facing=east,light_level=3,old=true": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_old_on",
+      "x": 90,
+      "y": 270
+    },
+    "facing=east,light_level=4,old=false": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_on",
+      "x": 90,
+      "y": 270
+    },
+    "facing=east,light_level=4,old=true": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_old_on",
+      "x": 90,
+      "y": 270
+    },
+    "facing=east,light_level=5,old=false": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_on",
+      "x": 90,
+      "y": 270
+    },
+    "facing=east,light_level=5,old=true": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_old_on",
+      "x": 90,
+      "y": 270
+    },
+    "facing=east,light_level=6,old=false": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_on",
+      "x": 90,
+      "y": 270
+    },
+    "facing=east,light_level=6,old=true": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_old_on",
+      "x": 90,
+      "y": 270
+    },
+    "facing=east,light_level=7,old=false": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_on",
+      "x": 90,
+      "y": 270
+    },
+    "facing=east,light_level=7,old=true": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_old_on",
+      "x": 90,
+      "y": 270
+    },
+    "facing=east,light_level=8,old=false": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_on",
+      "x": 90,
+      "y": 270
+    },
+    "facing=east,light_level=8,old=true": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_old_on",
+      "x": 90,
+      "y": 270
+    },
+    "facing=east,light_level=9,old=false": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_on",
+      "x": 90,
+      "y": 270
+    },
+    "facing=east,light_level=9,old=true": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_old_on",
+      "x": 90,
+      "y": 270
+    },
+    "facing=north,light_level=0,old=false": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_off",
+      "x": 90,
+      "y": 180
+    },
+    "facing=north,light_level=0,old=true": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_old_off",
+      "x": 90,
+      "y": 180
+    },
+    "facing=north,light_level=1,old=false": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_on",
+      "x": 90,
+      "y": 180
+    },
+    "facing=north,light_level=1,old=true": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_old_on",
+      "x": 90,
+      "y": 180
+    },
+    "facing=north,light_level=10,old=false": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_on",
+      "x": 90,
+      "y": 180
+    },
+    "facing=north,light_level=10,old=true": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_old_on",
+      "x": 90,
+      "y": 180
+    },
+    "facing=north,light_level=11,old=false": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_on",
+      "x": 90,
+      "y": 180
+    },
+    "facing=north,light_level=11,old=true": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_old_on",
+      "x": 90,
+      "y": 180
+    },
+    "facing=north,light_level=12,old=false": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_on",
+      "x": 90,
+      "y": 180
+    },
+    "facing=north,light_level=12,old=true": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_old_on",
+      "x": 90,
+      "y": 180
+    },
+    "facing=north,light_level=13,old=false": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_on",
+      "x": 90,
+      "y": 180
+    },
+    "facing=north,light_level=13,old=true": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_old_on",
+      "x": 90,
+      "y": 180
+    },
+    "facing=north,light_level=14,old=false": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_on",
+      "x": 90,
+      "y": 180
+    },
+    "facing=north,light_level=14,old=true": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_old_on",
+      "x": 90,
+      "y": 180
+    },
+    "facing=north,light_level=15,old=false": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_on",
+      "x": 90,
+      "y": 180
+    },
+    "facing=north,light_level=15,old=true": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_old_on",
+      "x": 90,
+      "y": 180
+    },
+    "facing=north,light_level=2,old=false": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_on",
+      "x": 90,
+      "y": 180
+    },
+    "facing=north,light_level=2,old=true": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_old_on",
+      "x": 90,
+      "y": 180
+    },
+    "facing=north,light_level=3,old=false": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_on",
+      "x": 90,
+      "y": 180
+    },
+    "facing=north,light_level=3,old=true": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_old_on",
+      "x": 90,
+      "y": 180
+    },
+    "facing=north,light_level=4,old=false": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_on",
+      "x": 90,
+      "y": 180
+    },
+    "facing=north,light_level=4,old=true": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_old_on",
+      "x": 90,
+      "y": 180
+    },
+    "facing=north,light_level=5,old=false": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_on",
+      "x": 90,
+      "y": 180
+    },
+    "facing=north,light_level=5,old=true": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_old_on",
+      "x": 90,
+      "y": 180
+    },
+    "facing=north,light_level=6,old=false": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_on",
+      "x": 90,
+      "y": 180
+    },
+    "facing=north,light_level=6,old=true": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_old_on",
+      "x": 90,
+      "y": 180
+    },
+    "facing=north,light_level=7,old=false": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_on",
+      "x": 90,
+      "y": 180
+    },
+    "facing=north,light_level=7,old=true": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_old_on",
+      "x": 90,
+      "y": 180
+    },
+    "facing=north,light_level=8,old=false": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_on",
+      "x": 90,
+      "y": 180
+    },
+    "facing=north,light_level=8,old=true": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_old_on",
+      "x": 90,
+      "y": 180
+    },
+    "facing=north,light_level=9,old=false": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_on",
+      "x": 90,
+      "y": 180
+    },
+    "facing=north,light_level=9,old=true": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_old_on",
+      "x": 90,
+      "y": 180
+    },
+    "facing=south,light_level=0,old=false": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_off",
+      "x": 90
+    },
+    "facing=south,light_level=0,old=true": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_old_off",
+      "x": 90
+    },
+    "facing=south,light_level=1,old=false": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_on",
+      "x": 90
+    },
+    "facing=south,light_level=1,old=true": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_old_on",
+      "x": 90
+    },
+    "facing=south,light_level=10,old=false": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_on",
+      "x": 90
+    },
+    "facing=south,light_level=10,old=true": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_old_on",
+      "x": 90
+    },
+    "facing=south,light_level=11,old=false": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_on",
+      "x": 90
+    },
+    "facing=south,light_level=11,old=true": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_old_on",
+      "x": 90
+    },
+    "facing=south,light_level=12,old=false": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_on",
+      "x": 90
+    },
+    "facing=south,light_level=12,old=true": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_old_on",
+      "x": 90
+    },
+    "facing=south,light_level=13,old=false": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_on",
+      "x": 90
+    },
+    "facing=south,light_level=13,old=true": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_old_on",
+      "x": 90
+    },
+    "facing=south,light_level=14,old=false": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_on",
+      "x": 90
+    },
+    "facing=south,light_level=14,old=true": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_old_on",
+      "x": 90
+    },
+    "facing=south,light_level=15,old=false": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_on",
+      "x": 90
+    },
+    "facing=south,light_level=15,old=true": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_old_on",
+      "x": 90
+    },
+    "facing=south,light_level=2,old=false": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_on",
+      "x": 90
+    },
+    "facing=south,light_level=2,old=true": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_old_on",
+      "x": 90
+    },
+    "facing=south,light_level=3,old=false": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_on",
+      "x": 90
+    },
+    "facing=south,light_level=3,old=true": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_old_on",
+      "x": 90
+    },
+    "facing=south,light_level=4,old=false": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_on",
+      "x": 90
+    },
+    "facing=south,light_level=4,old=true": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_old_on",
+      "x": 90
+    },
+    "facing=south,light_level=5,old=false": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_on",
+      "x": 90
+    },
+    "facing=south,light_level=5,old=true": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_old_on",
+      "x": 90
+    },
+    "facing=south,light_level=6,old=false": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_on",
+      "x": 90
+    },
+    "facing=south,light_level=6,old=true": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_old_on",
+      "x": 90
+    },
+    "facing=south,light_level=7,old=false": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_on",
+      "x": 90
+    },
+    "facing=south,light_level=7,old=true": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_old_on",
+      "x": 90
+    },
+    "facing=south,light_level=8,old=false": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_on",
+      "x": 90
+    },
+    "facing=south,light_level=8,old=true": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_old_on",
+      "x": 90
+    },
+    "facing=south,light_level=9,old=false": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_on",
+      "x": 90
+    },
+    "facing=south,light_level=9,old=true": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_old_on",
+      "x": 90
+    },
+    "facing=up,light_level=0,old=false": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_off",
+      "y": 270
+    },
+    "facing=up,light_level=0,old=true": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_old_off",
+      "y": 270
+    },
+    "facing=up,light_level=1,old=false": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_on",
+      "y": 270
+    },
+    "facing=up,light_level=1,old=true": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_old_on",
+      "y": 270
+    },
+    "facing=up,light_level=10,old=false": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_on",
+      "y": 270
+    },
+    "facing=up,light_level=10,old=true": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_old_on",
+      "y": 270
+    },
+    "facing=up,light_level=11,old=false": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_on",
+      "y": 270
+    },
+    "facing=up,light_level=11,old=true": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_old_on",
+      "y": 270
+    },
+    "facing=up,light_level=12,old=false": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_on",
+      "y": 270
+    },
+    "facing=up,light_level=12,old=true": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_old_on",
+      "y": 270
+    },
+    "facing=up,light_level=13,old=false": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_on",
+      "y": 270
+    },
+    "facing=up,light_level=13,old=true": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_old_on",
+      "y": 270
+    },
+    "facing=up,light_level=14,old=false": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_on",
+      "y": 270
+    },
+    "facing=up,light_level=14,old=true": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_old_on",
+      "y": 270
+    },
+    "facing=up,light_level=15,old=false": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_on",
+      "y": 270
+    },
+    "facing=up,light_level=15,old=true": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_old_on",
+      "y": 270
+    },
+    "facing=up,light_level=2,old=false": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_on",
+      "y": 270
+    },
+    "facing=up,light_level=2,old=true": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_old_on",
+      "y": 270
+    },
+    "facing=up,light_level=3,old=false": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_on",
+      "y": 270
+    },
+    "facing=up,light_level=3,old=true": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_old_on",
+      "y": 270
+    },
+    "facing=up,light_level=4,old=false": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_on",
+      "y": 270
+    },
+    "facing=up,light_level=4,old=true": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_old_on",
+      "y": 270
+    },
+    "facing=up,light_level=5,old=false": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_on",
+      "y": 270
+    },
+    "facing=up,light_level=5,old=true": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_old_on",
+      "y": 270
+    },
+    "facing=up,light_level=6,old=false": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_on",
+      "y": 270
+    },
+    "facing=up,light_level=6,old=true": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_old_on",
+      "y": 270
+    },
+    "facing=up,light_level=7,old=false": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_on",
+      "y": 270
+    },
+    "facing=up,light_level=7,old=true": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_old_on",
+      "y": 270
+    },
+    "facing=up,light_level=8,old=false": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_on",
+      "y": 270
+    },
+    "facing=up,light_level=8,old=true": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_old_on",
+      "y": 270
+    },
+    "facing=up,light_level=9,old=false": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_on",
+      "y": 270
+    },
+    "facing=up,light_level=9,old=true": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_old_on",
+      "y": 270
+    },
+    "facing=west,light_level=0,old=false": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_off",
+      "x": 90,
+      "y": 90
+    },
+    "facing=west,light_level=0,old=true": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_old_off",
+      "x": 90,
+      "y": 90
+    },
+    "facing=west,light_level=1,old=false": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_on",
+      "x": 90,
+      "y": 90
+    },
+    "facing=west,light_level=1,old=true": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_old_on",
+      "x": 90,
+      "y": 90
+    },
+    "facing=west,light_level=10,old=false": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_on",
+      "x": 90,
+      "y": 90
+    },
+    "facing=west,light_level=10,old=true": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_old_on",
+      "x": 90,
+      "y": 90
+    },
+    "facing=west,light_level=11,old=false": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_on",
+      "x": 90,
+      "y": 90
+    },
+    "facing=west,light_level=11,old=true": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_old_on",
+      "x": 90,
+      "y": 90
+    },
+    "facing=west,light_level=12,old=false": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_on",
+      "x": 90,
+      "y": 90
+    },
+    "facing=west,light_level=12,old=true": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_old_on",
+      "x": 90,
+      "y": 90
+    },
+    "facing=west,light_level=13,old=false": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_on",
+      "x": 90,
+      "y": 90
+    },
+    "facing=west,light_level=13,old=true": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_old_on",
+      "x": 90,
+      "y": 90
+    },
+    "facing=west,light_level=14,old=false": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_on",
+      "x": 90,
+      "y": 90
+    },
+    "facing=west,light_level=14,old=true": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_old_on",
+      "x": 90,
+      "y": 90
+    },
+    "facing=west,light_level=15,old=false": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_on",
+      "x": 90,
+      "y": 90
+    },
+    "facing=west,light_level=15,old=true": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_old_on",
+      "x": 90,
+      "y": 90
+    },
+    "facing=west,light_level=2,old=false": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_on",
+      "x": 90,
+      "y": 90
+    },
+    "facing=west,light_level=2,old=true": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_old_on",
+      "x": 90,
+      "y": 90
+    },
+    "facing=west,light_level=3,old=false": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_on",
+      "x": 90,
+      "y": 90
+    },
+    "facing=west,light_level=3,old=true": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_old_on",
+      "x": 90,
+      "y": 90
+    },
+    "facing=west,light_level=4,old=false": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_on",
+      "x": 90,
+      "y": 90
+    },
+    "facing=west,light_level=4,old=true": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_old_on",
+      "x": 90,
+      "y": 90
+    },
+    "facing=west,light_level=5,old=false": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_on",
+      "x": 90,
+      "y": 90
+    },
+    "facing=west,light_level=5,old=true": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_old_on",
+      "x": 90,
+      "y": 90
+    },
+    "facing=west,light_level=6,old=false": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_on",
+      "x": 90,
+      "y": 90
+    },
+    "facing=west,light_level=6,old=true": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_old_on",
+      "x": 90,
+      "y": 90
+    },
+    "facing=west,light_level=7,old=false": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_on",
+      "x": 90,
+      "y": 90
+    },
+    "facing=west,light_level=7,old=true": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_old_on",
+      "x": 90,
+      "y": 90
+    },
+    "facing=west,light_level=8,old=false": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_on",
+      "x": 90,
+      "y": 90
+    },
+    "facing=west,light_level=8,old=true": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_old_on",
+      "x": 90,
+      "y": 90
+    },
+    "facing=west,light_level=9,old=false": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_on",
+      "x": 90,
+      "y": 90
+    },
+    "facing=west,light_level=9,old=true": {
+      "model": "ddcl:block/blue_copper_dimm_lamp_old_on",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

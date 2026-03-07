@@ -1,15 +1,11 @@
 package com.palm3.ddcl;
 
-import com.palm3.ddcl.base.blocks.CopperDimmableCageLampBlock;
+import com.palm3.ddcl.base.blocks.DoubleTextureDimmableCageLampBlock;
 import com.palm3.ddcl.base.blocks.DimmableCageLampBlock;
 import com.tterrag.registrate.util.entry.BlockEntry;
-import net.minecraft.client.renderer.RenderType;
-import net.minecraft.resources.ResourceLocation;
-import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.material.MapColor;
 
 import static com.palm3.ddcl.DDCLMain.MOD_REGISTRATE;
-import static net.minecraft.world.level.block.state.properties.BlockStateProperties.POWER;
 
 public class DDCLBlocks {
 
@@ -114,26 +110,26 @@ public class DDCLBlocks {
             .register();
 
 
-    public static final BlockEntry<CopperDimmableCageLampBlock> GREEN_COPPER_DIMM_LAMP = MOD_REGISTRATE
-            .block("green_copper_dimm_lamp", CopperDimmableCageLampBlock::new)
+    public static final BlockEntry<DoubleTextureDimmableCageLampBlock> GREEN_COPPER_DIMM_LAMP = MOD_REGISTRATE
+            .block("green_copper_dimm_lamp", DoubleTextureDimmableCageLampBlock::new)
             .properties(p -> p.mapColor(MapColor.TERRACOTTA_GRAY).noOcclusion())
             .simpleItem()
             .register();
 
-    public static final BlockEntry<CopperDimmableCageLampBlock> YELLOW_COPPER_DIMM_LAMP = MOD_REGISTRATE
-            .block("yellow_copper_dimm_lamp", CopperDimmableCageLampBlock::new)
+    public static final BlockEntry<DoubleTextureDimmableCageLampBlock> YELLOW_COPPER_DIMM_LAMP = MOD_REGISTRATE
+            .block("yellow_copper_dimm_lamp", DoubleTextureDimmableCageLampBlock::new)
             .properties(p -> p.mapColor(MapColor.TERRACOTTA_GRAY).noOcclusion())
             .simpleItem()
             .register();
 
-    public static final BlockEntry<CopperDimmableCageLampBlock> RED_COPPER_DIMM_LAMP = MOD_REGISTRATE
-            .block("red_copper_dimm_lamp", CopperDimmableCageLampBlock::new)
+    public static final BlockEntry<DoubleTextureDimmableCageLampBlock> RED_COPPER_DIMM_LAMP = MOD_REGISTRATE
+            .block("red_copper_dimm_lamp", DoubleTextureDimmableCageLampBlock::new)
             .properties(p -> p.mapColor(MapColor.TERRACOTTA_GRAY).noOcclusion())
             .simpleItem()
             .register();
 
-    public static final BlockEntry<CopperDimmableCageLampBlock> BLUE_COPPER_DIMM_LAMP = MOD_REGISTRATE
-            .block("blue_copper_dimm_lamp", CopperDimmableCageLampBlock::new)
+    public static final BlockEntry<DoubleTextureDimmableCageLampBlock> BLUE_COPPER_DIMM_LAMP = MOD_REGISTRATE
+            .block("blue_copper_dimm_lamp", DoubleTextureDimmableCageLampBlock::new)
             .properties(p -> p.mapColor(MapColor.TERRACOTTA_GRAY).noOcclusion())
             .simpleItem()
             .register();

@@ -1,8 +1,10 @@
 package com.palm3.ddcl.base.blocks;
 
+import com.palm3.ddcl.base.blockentities.DimmableCageLampBlockEntity;
 import com.simibubi.create.AllItems;
 import com.simibubi.create.AllSoundEvents;
 import net.minecraft.core.BlockPos;
+import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.ItemInteractionResult;
@@ -10,6 +12,7 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.state.properties.BooleanProperty;
@@ -32,9 +35,25 @@ public class DoubleTextureDimmableCageLampBlock extends DimmableCageLampBlock {
 
     @Override
     public ItemInteractionResult useItemOn(ItemStack stack, BlockState state, Level level, BlockPos pos, Player player, InteractionHand hand, BlockHitResult hitResult) {
-        if (stack.getItem() == AllItems.WRENCH.asItem()) {
-            level.setBlock(pos, state.setValue(OLD_TEXTURE, !state.getValue(OLD_TEXTURE)), 3);
-            level.playSound(null, pos, AllSoundEvents.WRENCH_ROTATE.getMainEvent(), SoundSource.BLOCKS, 0.5f, 1.4f);
+        if (!level.isClientSide) {
+            int powerLevel = level.getBestNeighborSignal(pos);
+            BlockEntity be = level.getBlockEntity(pos);
+
+            if (stack.getItem() != AllItems.WRENCH.asItem()) {
+                if (be instanceof DimmableCageLampBlockEntity lamp) {
+                    lamp.setReverseBehaviour(!lamp.getReverseBehaviour());  // Switch behaviour
+                    if (lamp.getReverseBehaviour()) {
+                        level.setBlock(pos, state.setValue(LIGHT_LEVEL, 15 - powerLevel), 3);
+                        level.playSound(null, pos, SoundEvents.LEVER_CLICK, SoundSource.BLOCKS, 0.5f, 1.3f);
+                    } else {
+                        level.setBlock(pos, state.setValue(LIGHT_LEVEL, powerLevel), 3);
+                        level.playSound(null, pos, SoundEvents.LEVER_CLICK, SoundSource.BLOCKS, 0.5f, 1.1f);
+                    }
+                }
+            } else {
+                level.setBlock(pos, state.setValue(OLD_TEXTURE, !state.getValue(OLD_TEXTURE)), 3);
+                level.playSound(null, pos, AllSoundEvents.WRENCH_ROTATE.getMainEvent(), SoundSource.BLOCKS, 0.5f, 1.4f);
+            }
         }
         return ItemInteractionResult.SUCCESS;
     }

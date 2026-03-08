@@ -2,19 +2,16 @@ package com.palm3.ddcl;
 
 import com.mojang.logging.LogUtils;
 import com.palm3.ddcl.configs.DDCLClientConfig;
+import com.palm3.ddcl.providers.DDCLBlockStatesProvider;
 import com.simibubi.create.foundation.data.CreateRegistrate;
-import com.tterrag.registrate.providers.ProviderType;
-import net.minecraft.core.registries.Registries;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.item.CreativeModeTab;
 import net.neoforged.bus.api.IEventBus;
-import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.ModContainer;
 import net.neoforged.fml.common.Mod;
 import net.neoforged.fml.config.ModConfig;
-import net.neoforged.neoforge.client.model.generators.ConfiguredModel;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
 import net.neoforged.neoforge.data.event.GatherDataEvent;
 import org.slf4j.Logger;
@@ -32,6 +29,7 @@ public class DDCLMain {
         modContainer.registerConfig(ModConfig.Type.CLIENT, DDCLClientConfig.CONFIG_SPEC);
         MOD_REGISTRATE.registerEventListeners(modEventBus);
         DDCLBlocks.register();
+        DDCLBlockEntities.register();
         DDCLTabs.DDCL_TABS.register(modEventBus);
     }
 

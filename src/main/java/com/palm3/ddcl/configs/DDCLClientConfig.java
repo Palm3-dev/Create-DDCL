@@ -1,6 +1,5 @@
 package com.palm3.ddcl.configs;
 
-import net.minecraft.world.item.ItemDisplayContext;
 import net.neoforged.neoforge.common.ModConfigSpec;
 import org.apache.commons.lang3.tuple.Pair;
 

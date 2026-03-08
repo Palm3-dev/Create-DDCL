@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "L": {
+      "item": "minecraft:redstone_torch"
+    },
+    "N": {
+      "item": "create:andesite_alloy"
+    },
+    "P": {
+      "tag": "c:plates/andesite"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "pattern": [
+    " N ",
+    " L ",
+    "RPR"
+  ],
+  "result": {
+    "count": 1,
+    "id": "ddcl:red_andesite_dimm_lamp"
+  }
+}

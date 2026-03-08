@@ -3,7 +3,9 @@ package com.palm3.ddcl;
 import com.mojang.logging.LogUtils;
 import com.palm3.ddcl.configs.DDCLClientConfig;
 import com.palm3.ddcl.providers.DDCLBlockStatesProvider;
+import com.palm3.ddcl.providers.DDCLRecipesProvider;
 import com.simibubi.create.foundation.data.CreateRegistrate;
+import net.minecraft.core.HolderLookup;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceKey;
@@ -15,6 +17,8 @@ import net.neoforged.fml.config.ModConfig;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
 import net.neoforged.neoforge.data.event.GatherDataEvent;
 import org.slf4j.Logger;
+
+import java.util.concurrent.CompletableFuture;
 
 @Mod(DDCLMain.MOD_ID)
 public class DDCLMain {
@@ -37,8 +41,10 @@ public class DDCLMain {
         DataGenerator gen = event.getGenerator();
         PackOutput packOutput = gen.getPackOutput();
         ExistingFileHelper helper = event.getExistingFileHelper();
+        CompletableFuture<HolderLookup.Provider> registries = event.getLookupProvider();
 
         gen.addProvider(event.includeClient(), new DDCLBlockStatesProvider(packOutput, MOD_ID, helper));
+        gen.addProvider(event.includeClient(), new DDCLRecipesProvider(packOutput, registries));
     }
 
 

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "L": {
+      "item": "minecraft:torch"
+    },
+    "N": {
+      "tag": "c:nuggets/zinc"
+    },
+    "P": {
+      "tag": "c:plates/zinc"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "pattern": [
+    " N ",
+    " L ",
+    "RPR"
+  ],
+  "result": {
+    "count": 1,
+    "id": "ddcl:yellow_zinc_dimm_lamp"
+  }
+}

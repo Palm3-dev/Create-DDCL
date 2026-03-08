@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "L": {
+      "item": "minecraft:glow_berries"
+    },
+    "N": {
+      "tag": "c:nuggets/iron"
+    },
+    "P": {
+      "tag": "c:plates/iron"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "pattern": [
+    " N ",
+    " L ",
+    "RPR"
+  ],
+  "result": {
+    "count": 1,
+    "id": "ddcl:green_iron_dimm_lamp"
+  }
+}

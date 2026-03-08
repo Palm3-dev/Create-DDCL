@@ -1,21 +1,15 @@
-package com.palm3.ddcl;
+package com.palm3.ddcl.providers;
 
+import com.palm3.ddcl.DDCLBlocks;
 import com.palm3.ddcl.base.blocks.DimmableCageLampBlock;
 import com.palm3.ddcl.base.blocks.DoubleTextureDimmableCageLampBlock;
-import com.simibubi.create.content.equipment.wrench.IWrenchable;
 import net.minecraft.core.Direction;
 import net.minecraft.core.registries.BuiltInRegistries;
-import net.minecraft.core.registries.Registries;
-import net.minecraft.data.DataGenerator;
 import net.minecraft.data.PackOutput;
 import net.minecraft.world.level.block.Block;
-import net.neoforged.bus.api.SubscribeEvent;
-import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.neoforge.client.model.generators.BlockStateProvider;
 import net.neoforged.neoforge.client.model.generators.ConfiguredModel;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
-import net.neoforged.neoforge.data.event.GatherDataEvent;
-import net.neoforged.neoforge.registries.NeoForgeRegistries;
 
 public class DDCLBlockStatesProvider extends BlockStateProvider {  //todo fix to much blockstates (does every combination now)
 

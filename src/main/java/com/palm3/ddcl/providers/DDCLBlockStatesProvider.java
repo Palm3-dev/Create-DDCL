@@ -11,7 +11,7 @@ import net.neoforged.neoforge.client.model.generators.BlockStateProvider;
 import net.neoforged.neoforge.client.model.generators.ConfiguredModel;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
 
-public class DDCLBlockStatesProvider extends BlockStateProvider {  //todo fix to much blockstates (does every combination now)
+public class DDCLBlockStatesProvider extends BlockStateProvider {
 
     public DDCLBlockStatesProvider(PackOutput output, String modid, ExistingFileHelper exFileHelper) {
         super(output, modid, exFileHelper);

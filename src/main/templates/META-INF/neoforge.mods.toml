@@ -10,6 +10,7 @@ authors="Palm3"
 description='''
 Adds dimmable versions of cage lamps from Create: Deco.
 '''
+logoFile= "icon.png"
 
 [[dependencies.${mod_id}]]
     modId="neoforge"

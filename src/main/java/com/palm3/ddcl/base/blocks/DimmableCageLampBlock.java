@@ -3,6 +3,7 @@ package com.palm3.ddcl.base.blocks;
 import com.palm3.ddcl.DDCLBlockEntities;
 import com.palm3.ddcl.DDCLMain;
 import com.palm3.ddcl.base.blockentities.DimmableCageLampBlockEntity;
+import com.simibubi.create.content.equipment.wrench.IWrenchable;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.sounds.SoundEvents;
@@ -29,7 +30,7 @@ import net.minecraft.world.phys.shapes.VoxelShape;
 import javax.annotation.Nullable;
 import java.util.Map;
 
-public class DimmableCageLampBlock extends Block implements EntityBlock {
+public class DimmableCageLampBlock extends Block implements EntityBlock, IWrenchable {
 
     public static final IntegerProperty LIGHT_LEVEL = IntegerProperty.create("light_level", 0, 15);
     public static final DirectionProperty FACING = BlockStateProperties.FACING;

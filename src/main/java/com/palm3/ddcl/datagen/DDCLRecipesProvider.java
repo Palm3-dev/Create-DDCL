@@ -1,4 +1,4 @@
-package com.palm3.ddcl.providers;
+package com.palm3.ddcl.datagen;
 
 import com.palm3.ddcl.DDCLBlocks;
 import com.simibubi.create.AllItems;

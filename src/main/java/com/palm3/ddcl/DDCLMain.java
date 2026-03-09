@@ -2,13 +2,15 @@ package com.palm3.ddcl;
 
 import com.mojang.logging.LogUtils;
 import com.palm3.ddcl.configs.DDCLClientConfig;
-import com.palm3.ddcl.providers.DDCLBlockStatesProvider;
-import com.palm3.ddcl.providers.DDCLRecipesProvider;
+import com.palm3.ddcl.datagen.DDCLBlockStatesProvider;
+import com.palm3.ddcl.datagen.DDCLRecipesProvider;
+import com.palm3.ddcl.ponder.DDCLPonderPlugin;
 import com.simibubi.create.foundation.data.CreateRegistrate;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceKey;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.CreativeModeTab;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.ModContainer;
@@ -35,6 +37,8 @@ public class DDCLMain {
         DDCLBlocks.register();
         DDCLBlockEntities.register();
         DDCLTabs.DDCL_TABS.register(modEventBus);
+
+
     }
 
     public void gatherData(GatherDataEvent event) {
@@ -46,6 +50,11 @@ public class DDCLMain {
         gen.addProvider(event.includeClient(), new DDCLBlockStatesProvider(packOutput, MOD_ID, helper));
         gen.addProvider(event.includeClient(), new DDCLRecipesProvider(packOutput, registries));
     }
+
+    public static ResourceLocation asResource(String path) {
+        return ResourceLocation.fromNamespaceAndPath(MOD_ID, path);
+    }
+
 
 
 }

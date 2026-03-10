@@ -4,6 +4,7 @@ import com.palm3.ddcl.DDCLBlockEntities;
 import com.palm3.ddcl.DDCLMain;
 import com.palm3.ddcl.base.blockentities.DimmableCageLampBlockEntity;
 import com.simibubi.create.content.equipment.wrench.IWrenchable;
+import com.simibubi.create.foundation.block.ProperWaterloggedBlock;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.sounds.SoundEvents;
@@ -23,6 +24,7 @@ import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.state.properties.BlockStateProperties;
 import net.minecraft.world.level.block.state.properties.DirectionProperty;
 import net.minecraft.world.level.block.state.properties.IntegerProperty;
+import net.minecraft.world.level.material.FluidState;
 import net.minecraft.world.phys.BlockHitResult;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.shapes.VoxelShape;
@@ -30,7 +32,7 @@ import net.minecraft.world.phys.shapes.VoxelShape;
 import javax.annotation.Nullable;
 import java.util.Map;
 
-public class DimmableCageLampBlock extends Block implements EntityBlock, IWrenchable {
+public class DimmableCageLampBlock extends Block implements EntityBlock, IWrenchable, ProperWaterloggedBlock {
 
     public static final IntegerProperty LIGHT_LEVEL = IntegerProperty.create("light_level", 0, 15);
     public static final DirectionProperty FACING = BlockStateProperties.FACING;
@@ -39,7 +41,7 @@ public class DimmableCageLampBlock extends Block implements EntityBlock, IWrench
     @Override
     protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> builder) {
         super.createBlockStateDefinition(builder);
-        builder.add(LIGHT_LEVEL, FACING);
+        builder.add(LIGHT_LEVEL, FACING, WATERLOGGED);
     }
 
     public DimmableCageLampBlock(Properties props) {
@@ -47,6 +49,7 @@ public class DimmableCageLampBlock extends Block implements EntityBlock, IWrench
         this.registerDefaultState(this.defaultBlockState()
                 .setValue(LIGHT_LEVEL, 0)
                 .setValue(FACING, Direction.NORTH)
+                .setValue(WATERLOGGED, false)
         );
     }
 
@@ -118,14 +121,27 @@ public class DimmableCageLampBlock extends Block implements EntityBlock, IWrench
     @Override
     public BlockState getStateForPlacement(BlockPlaceContext context) {
         if (context.getClickedFace() == Direction.UP || context.getClickedFace() == Direction.DOWN) {
-            return this.defaultBlockState().setValue(FACING, context.getClickedFace());
+            return withWater(defaultBlockState()
+                    .setValue(FACING, context.getClickedFace())
+                    .setValue(LIGHT_LEVEL, context.getLevel().getBestNeighborSignal(new BlockPos(context.getClickedPos()))),
+                    context
+            );
         } else {
-            return this.defaultBlockState().setValue(FACING, context.getClickedFace().getOpposite());
+            return withWater(defaultBlockState()
+                    .setValue(FACING, context.getClickedFace().getOpposite())
+                    .setValue(LIGHT_LEVEL, context.getLevel().getBestNeighborSignal(new BlockPos(context.getClickedPos()))),
+                    context
+            );
         }
     }
 
     @Override
     public boolean canConnectRedstone(BlockState state, BlockGetter level, BlockPos pos, @Nullable Direction direction) {
         return true;
+    }
+
+    @Override
+    public FluidState getFluidState (BlockState pState) {
+        return fluidState(pState);
     }
 }

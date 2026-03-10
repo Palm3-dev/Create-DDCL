@@ -86,7 +86,6 @@ public class DimmableCageLampBlock extends Block implements EntityBlock, IWrench
             BlockEntity be = level.getBlockEntity(pos);
 
             if (be instanceof DimmableCageLampBlockEntity lamp) {
-                DDCLMain.LOGGER.info("IS_ISTANCE");
                 if (powerLevel != state.getValue(LIGHT_LEVEL) && !lamp.getReverseBehaviour()) {
                     level.setBlock(pos, state.setValue(LIGHT_LEVEL, powerLevel), 3);
                 } else if (lamp.getReverseBehaviour()) {

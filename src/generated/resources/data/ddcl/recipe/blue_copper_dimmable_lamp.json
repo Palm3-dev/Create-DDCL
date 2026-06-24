@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "L": {
+      "item": "minecraft:soul_torch"
+    },
+    "N": {
+      "tag": "c:nuggets/copper"
+    },
+    "P": {
+      "tag": "c:plates/copper"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "pattern": [
+    " N ",
+    " L ",
+    "RPR"
+  ],
+  "result": {
+    "count": 1,
+    "id": "ddcl:blue_copper_dimmable_lamp"
+  }
+}

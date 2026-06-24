@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "L": {
+      "item": "minecraft:glow_berries"
+    },
+    "N": {
+      "tag": "c:nuggets/netherite"
+    },
+    "P": {
+      "tag": "c:plates/netherite"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "pattern": [
+    " N ",
+    " L ",
+    "RPR"
+  ],
+  "result": {
+    "count": 1,
+    "id": "ddcl:green_netherite_dimmable_lamp"
+  }
+}

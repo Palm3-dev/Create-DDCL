@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "L": {
+      "item": "minecraft:soul_torch"
+    },
+    "N": {
+      "tag": "c:nuggets/industrial_iron"
+    },
+    "P": {
+      "tag": "c:plates/industrial_iron"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "pattern": [
+    " N ",
+    " L ",
+    "RPR"
+  ],
+  "result": {
+    "count": 1,
+    "id": "ddcl:blue_industrial_iron_dimmable_lamp"
+  }
+}

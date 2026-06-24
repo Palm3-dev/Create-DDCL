@@ -1,7 +1,6 @@
 package com.palm3.ddcl.base.blocks;
 
 import com.palm3.ddcl.DDCLBlockEntities;
-import com.palm3.ddcl.DDCLMain;
 import com.palm3.ddcl.base.blockentities.DimmableCageLampBlockEntity;
 import com.simibubi.create.content.equipment.wrench.IWrenchable;
 import com.simibubi.create.foundation.block.ProperWaterloggedBlock;

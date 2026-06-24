@@ -16,7 +16,7 @@ public class DDCLClient {
     }
 
     public static void onCtorClient(IEventBus modEventBus) {
-        IEventBus neoEventBus = NeoForge.EVENT_BUS;
+        //IEventBus neoEventBus = NeoForge.EVENT_BUS;
 
         modEventBus.addListener(DDCLClient::clientInit);
     }

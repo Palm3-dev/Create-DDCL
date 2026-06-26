@@ -30,10 +30,10 @@ import static com.tterrag.registrate.providers.RegistrateRecipeProvider.has;
 @SuppressWarnings("deprecated, removal")
 public class Helpers {
 
-    private static TagKey<Item> neoItemTag(String tag) {
+    public static TagKey<Item> neoItemTag(String tag) {
         return ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", tag));
     }
-    private static TagKey<Item> modItemTag(String tag) {
+    public static TagKey<Item> modItemTag(String tag) {
         return ItemTags.create(ResourceLocation.fromNamespaceAndPath(MOD_ID, tag));
     }
 

@@ -1,4 +1,4 @@
-// 1.21.1	2026-06-26T15:39:30.8829344	Registrate Provider for ddcl [Registries, Data Maps, Recipes, Advancements, Loot Tables, Tags (enchantments), Tags (blocks), Tags (items), Tags (fluids), Tags (entity_types), generic_server_provider, Blockstates, Item models, Lang (en_us/en_ud), generic_client_provider]
+// 1.21.1	2026-06-26T15:53:45.2812282	Registrate Provider for ddcl [Registries, Data Maps, Recipes, Advancements, Loot Tables, Tags (enchantments), Tags (blocks), Tags (items), Tags (fluids), Tags (entity_types), generic_server_provider, Blockstates, Item models, Lang (en_us/en_ud), generic_client_provider]
 0afe055c57d220c3b8f3e6ad608fd55dca35bbde assets/ddcl/blockstates/blue_andesite_dimmable_lamp.json
 b94b9ee4f666304ac0c1897cc66c8d05e0e77391 assets/ddcl/blockstates/blue_brass_dimmable_lamp.json
 035ea79532e5effc5d2a2dcc74dda2b9ca50860f assets/ddcl/blockstates/blue_copper_dimmable_lamp.json
@@ -234,4 +234,12 @@ a4dc0b1002c3132530e84cb5244a2dc9b5e5dc0f data/ddcl/recipe/yellow_industrial_iron
 6c43711f6d674d2db00ccfc3a339060ec351ddf7 data/ddcl/recipe/yellow_iron_dimmable_lamp.json
 2c7c9425a9f980f5616a8a27a40babf43e44de7a data/ddcl/recipe/yellow_netherite_dimmable_lamp.json
 b498ce092313e17f9ac9e1e43aec9be0da77234d data/ddcl/recipe/yellow_zinc_dimmable_lamp.json
+a57c34fa78ec632aba7e42cff1854e620f57d65d data/minecraft/advancement/recipes/decorations/blue_netherite_dimmable_lamp_from_industrial_iron.json
+f03e5d426c89325fc05fc7bdf37208811c331e47 data/minecraft/advancement/recipes/decorations/green_netherite_dimmable_lamp_from_industrial_iron.json
+7699b5ac4a09fd99434739762b45bb55de969088 data/minecraft/advancement/recipes/decorations/red_netherite_dimmable_lamp_from_industrial_iron.json
+321ed0b28eb1e32bd4a08ff2fef2aaa61c102d8f data/minecraft/advancement/recipes/decorations/yellow_netherite_dimmable_lamp_from_industrial_iron.json
+d951a2d6a63ae3843ec69e84a656c753daf53d83 data/minecraft/recipe/blue_netherite_dimmable_lamp_from_industrial_iron.json
+185f3f8a6b462a0a63b5fe8d56ffa21a1bcbbd04 data/minecraft/recipe/green_netherite_dimmable_lamp_from_industrial_iron.json
+4e1a9fa285017adfd4ebd7658f27eefaa5cf91c3 data/minecraft/recipe/red_netherite_dimmable_lamp_from_industrial_iron.json
+e482b396bbc85585f3cd7e11cf12c54016ea4bc8 data/minecraft/recipe/yellow_netherite_dimmable_lamp_from_industrial_iron.json
 9cf33cf2f722ddf905b05242b981476b8a50e341 data/minecraft/tags/block/mineable/pickaxe.json

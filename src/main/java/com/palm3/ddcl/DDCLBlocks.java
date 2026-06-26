@@ -5,10 +5,13 @@ import com.palm3.ddcl.base.blocks.DoubleTextureDimmableCageLampBlock;
 import com.palm3.ddcl.base.blocks.DimmableCageLampBlock;
 import com.tterrag.registrate.util.entry.BlockEntry;
 import net.minecraft.data.recipes.RecipeCategory;
+import net.minecraft.data.recipes.ShapedRecipeBuilder;
 import net.minecraft.data.recipes.ShapelessRecipeBuilder;
+import net.minecraft.world.item.Items;
 
 import static com.palm3.ddcl.DDCLMain.DDCL_REGISTRATE;
 import static com.palm3.ddcl.base.Helpers.decoParentLamp;
+import static com.palm3.ddcl.base.Helpers.neoItemTag;
 import static com.tterrag.registrate.providers.RegistrateRecipeProvider.has;
 
 public class DDCLBlocks {
@@ -161,37 +164,89 @@ public class DDCLBlocks {
     public static final BlockEntry<DimmableCageLampBlock> GREEN_NETHERITE_DIMM_LAMP = DDCL_REGISTRATE
             .block("green_netherite_dimmable_lamp", DimmableCageLampBlock::new)
             .transform(decoParentLamp(false, Helpers.LampMaterial.NETHERITE, Helpers.LampColor.GREEN, null))
-            .recipe((c, p) -> ShapelessRecipeBuilder.shapeless(RecipeCategory.DECORATIONS, c.get(), 1)
-                    .requires(GREEN_INDUSTRIAL_IRON_DIMM_LAMP)
-                    .unlockedBy("has_lamp", has(GREEN_INDUSTRIAL_IRON_DIMM_LAMP))
-                    .save(p))
+            .recipe((c, p) -> {
+                ShapelessRecipeBuilder.shapeless(RecipeCategory.DECORATIONS, c.get(), 1)
+                        .requires(GREEN_INDUSTRIAL_IRON_DIMM_LAMP)
+                        .unlockedBy("has_lamp", has(GREEN_INDUSTRIAL_IRON_DIMM_LAMP))
+                        .save(p);
+
+                ShapedRecipeBuilder.shaped(RecipeCategory.DECORATIONS, c.get(), 1)
+                        .pattern(" N ")
+                        .pattern(" L ")
+                        .pattern("RPR")
+                        .define('N', neoItemTag("nuggets/netherite"))
+                        .define('L', Items.GLOW_BERRIES)
+                        .define('R', Items.REDSTONE)
+                        .define('P', neoItemTag("plates/netherite"))
+                        .unlockedBy("has_redstone", has(Items.REDSTONE))
+                        .save(p, "green_netherite_dimmable_lamp_from_industrial_iron");
+            })
             .register();
 
     public static final BlockEntry<DimmableCageLampBlock> YELLOW_NETHERITE_DIMM_LAMP = DDCL_REGISTRATE
             .block("yellow_netherite_dimmable_lamp", DimmableCageLampBlock::new)
             .transform(decoParentLamp(false, Helpers.LampMaterial.NETHERITE, Helpers.LampColor.YELLOW, null))
-            .recipe((c, p) -> ShapelessRecipeBuilder.shapeless(RecipeCategory.DECORATIONS, c.get(), 1)
-                    .requires(YELLOW_INDUSTRIAL_IRON_DIMM_LAMP)
-                    .unlockedBy("has_lamp", has(YELLOW_INDUSTRIAL_IRON_DIMM_LAMP))
-                    .save(p))
+            .recipe((c, p) -> {
+                ShapelessRecipeBuilder.shapeless(RecipeCategory.DECORATIONS, c.get(), 1)
+                        .requires(YELLOW_INDUSTRIAL_IRON_DIMM_LAMP)
+                        .unlockedBy("has_lamp", has(YELLOW_INDUSTRIAL_IRON_DIMM_LAMP))
+                        .save(p);
+
+                ShapedRecipeBuilder.shaped(RecipeCategory.DECORATIONS, c.get(), 1)
+                        .pattern(" N ")
+                        .pattern(" L ")
+                        .pattern("RPR")
+                        .define('N', neoItemTag("nuggets/netherite"))
+                        .define('L', Items.TORCH)
+                        .define('R', Items.REDSTONE)
+                        .define('P', neoItemTag("plates/netherite"))
+                        .unlockedBy("has_redstone", has(Items.REDSTONE))
+                        .save(p, "yellow_netherite_dimmable_lamp_from_industrial_iron");
+            })
             .register();
 
     public static final BlockEntry<DimmableCageLampBlock> RED_NETHERITE_DIMM_LAMP = DDCL_REGISTRATE
             .block("red_netherite_dimmable_lamp", DimmableCageLampBlock::new)
             .transform(decoParentLamp(false, Helpers.LampMaterial.NETHERITE, Helpers.LampColor.RED, null))
-            .recipe((c, p) -> ShapelessRecipeBuilder.shapeless(RecipeCategory.DECORATIONS, c.get(), 1)
-                    .requires(RED_INDUSTRIAL_IRON_DIMM_LAMP)
-                    .unlockedBy("has_lamp", has(RED_INDUSTRIAL_IRON_DIMM_LAMP))
-                    .save(p))
+            .recipe((c, p) -> {
+                ShapelessRecipeBuilder.shapeless(RecipeCategory.DECORATIONS, c.get(), 1)
+                        .requires(RED_INDUSTRIAL_IRON_DIMM_LAMP)
+                        .unlockedBy("has_lamp", has(RED_INDUSTRIAL_IRON_DIMM_LAMP))
+                        .save(p);
+
+                ShapedRecipeBuilder.shaped(RecipeCategory.DECORATIONS, c.get(), 1)
+                        .pattern(" N ")
+                        .pattern(" L ")
+                        .pattern("RPR")
+                        .define('N', neoItemTag("nuggets/netherite"))
+                        .define('L', Items.REDSTONE_TORCH)
+                        .define('R', Items.REDSTONE)
+                        .define('P', neoItemTag("plates/netherite"))
+                        .unlockedBy("has_redstone", has(Items.REDSTONE))
+                        .save(p, "red_netherite_dimmable_lamp_from_industrial_iron");
+            })
             .register();
 
     public static final BlockEntry<DimmableCageLampBlock> BLUE_NETHERITE_DIMM_LAMP = DDCL_REGISTRATE
             .block("blue_netherite_dimmable_lamp", DimmableCageLampBlock::new)
             .transform(decoParentLamp(false, Helpers.LampMaterial.NETHERITE, Helpers.LampColor.BLUE, null))
-            .recipe((c, p) -> ShapelessRecipeBuilder.shapeless(RecipeCategory.DECORATIONS, c.get(), 1)
-                    .requires(BLUE_INDUSTRIAL_IRON_DIMM_LAMP)
-                    .unlockedBy("has_lamp", has(BLUE_INDUSTRIAL_IRON_DIMM_LAMP))
-                    .save(p))
+            .recipe((c, p) -> {
+                ShapelessRecipeBuilder.shapeless(RecipeCategory.DECORATIONS, c.get(), 1)
+                        .requires(BLUE_INDUSTRIAL_IRON_DIMM_LAMP)
+                        .unlockedBy("has_lamp", has(BLUE_INDUSTRIAL_IRON_DIMM_LAMP))
+                        .save(p);
+
+                ShapedRecipeBuilder.shaped(RecipeCategory.DECORATIONS, c.get(), 1)
+                        .pattern(" N ")
+                        .pattern(" L ")
+                        .pattern("RPR")
+                        .define('N', neoItemTag("nuggets/netherite"))
+                        .define('L', Items.SOUL_TORCH)
+                        .define('R', Items.REDSTONE)
+                        .define('P', neoItemTag("plates/netherite"))
+                        .unlockedBy("has_redstone", has(Items.REDSTONE))
+                        .save(p, "blue_netherite_dimmable_lamp_from_industrial_iron");
+            })
             .register();
     
     

@@ -23,6 +23,11 @@ All the lamps can be obviously used as normal Create: Deco lamps since if you fu
 
 There is also a create ponder that explains how the lamps work.
 
+The netherite lamps can be crafted with industrial iron ones, i know that this crafting doesn't make sense, but if you want to use the netherite lamps
+you have to waste one ingot per lamp, and i don't think it's good, so i added this crafting anyway.
+
+The mod also offers two inventory orders for lamps: by-color and by-material, see configs.
+
 ## Download
 The mod is avaiable for **1.21.1 NeoForge** on both CurseForge (to be added) and Modrinth.
 - CurseForge - to be added
@@ -36,3 +41,7 @@ You'll also need the original **Create: Deco** in order to install this mod (and
 ## Installation
 The installation process of this mod is the same as every other mod: install this mod jar and the dependencies (Create and Create: Deco) jars
 in your mods folder.
+
+## Euphoria Patches Compat
+
+to-do

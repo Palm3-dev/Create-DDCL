@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_redstone": {
+    "has_lamp": {
       "conditions": {
         "items": [
           {
-            "items": "minecraft:redstone"
+            "items": "ddcl:yellow_industrial_iron_dimmable_lamp"
           }
         ]
       },
@@ -21,7 +21,7 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_redstone"
+      "has_lamp"
     ]
   ],
   "rewards": {

@@ -1,24 +1,10 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "key": {
-    "L": {
-      "item": "minecraft:redstone_torch"
-    },
-    "N": {
-      "tag": "c:nuggets/netherite"
-    },
-    "P": {
-      "tag": "c:plates/netherite"
-    },
-    "R": {
-      "item": "minecraft:redstone"
+  "ingredients": [
+    {
+      "item": "ddcl:red_industrial_iron_dimmable_lamp"
     }
-  },
-  "pattern": [
-    " N ",
-    " L ",
-    "RPR"
   ],
   "result": {
     "count": 1,

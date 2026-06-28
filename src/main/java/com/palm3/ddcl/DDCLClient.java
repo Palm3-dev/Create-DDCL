@@ -10,13 +10,7 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 @Mod.EventBusSubscriber(value = Dist.CLIENT)
 public class DDCLClient {
 
-    public DDCLClient(IEventBus modEventBus) {
-        onCtorClient(modEventBus);
-    }
-
     public static void onCtorClient(IEventBus modEventBus) {
-        //IEventBus neoEventBus = NeoForge.EVENT_BUS;
-
         modEventBus.addListener(DDCLClient::clientInit);
     }
 

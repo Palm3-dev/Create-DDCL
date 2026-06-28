@@ -5,9 +5,9 @@ import com.simibubi.create.foundation.data.CreateRegistrate;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.CreativeModeTab;
-import net.minecraftforge.common.ForgeConfigSpec;
+import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.eventbus.api.IEventBus;
-import net.minecraftforge.fml.ModContainer;
+import net.minecraftforge.fml.DistExecutor;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.config.ModConfig;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
@@ -24,6 +24,8 @@ public class DDCLMain {
         DDCL_REGISTRATE.registerEventListeners(modEventBus);
 
         ctx.registerConfig(ModConfig.Type.CLIENT, DDCLClientConfig.CONFIG_SPEC);
+
+        DistExecutor.safeRunWhenOn(Dist.CLIENT, () -> () -> DDCLClient.onCtorClient(modEventBus));
 
         DDCLBlocks.register();
         DDCLItems.register();

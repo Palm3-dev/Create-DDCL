@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "L": {
+      "item": "minecraft:torch"
+    },
+    "N": {
+      "tag": "forge:nuggets/brass"
+    },
+    "P": {
+      "tag": "forge:plates/brass"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "pattern": [
+    " N ",
+    " L ",
+    "RPR"
+  ],
+  "result": {
+    "item": "ddcl:yellow_brass_dimmable_lamp"
+  },
+  "show_notification": true
+}

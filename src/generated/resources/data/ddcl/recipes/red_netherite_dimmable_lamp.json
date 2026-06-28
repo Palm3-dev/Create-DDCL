@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "ddcl:red_industrial_iron_dimmable_lamp"
+    }
+  ],
+  "result": {
+    "item": "ddcl:red_netherite_dimmable_lamp"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "createdeco:block/red_copper_lamp_off",
+  "textures": {
+    "cage": "ddcl:block/old_copper_lamp_cage",
+    "particle": "ddcl:block/old_copper_lamp_cage"
+  }
+}

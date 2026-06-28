@@ -1,0 +1,1796 @@
+{
+  "variants": {
+    "facing=down,light_level=0,old=false,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_off",
+      "x": 180,
+      "y": 270
+    },
+    "facing=down,light_level=0,old=false,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_off",
+      "x": 180,
+      "y": 270
+    },
+    "facing=down,light_level=0,old=true,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_off",
+      "x": 180,
+      "y": 270
+    },
+    "facing=down,light_level=0,old=true,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_off",
+      "x": 180,
+      "y": 270
+    },
+    "facing=down,light_level=1,old=false,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 180,
+      "y": 270
+    },
+    "facing=down,light_level=1,old=false,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 180,
+      "y": 270
+    },
+    "facing=down,light_level=1,old=true,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 180,
+      "y": 270
+    },
+    "facing=down,light_level=1,old=true,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 180,
+      "y": 270
+    },
+    "facing=down,light_level=10,old=false,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 180,
+      "y": 270
+    },
+    "facing=down,light_level=10,old=false,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 180,
+      "y": 270
+    },
+    "facing=down,light_level=10,old=true,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 180,
+      "y": 270
+    },
+    "facing=down,light_level=10,old=true,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 180,
+      "y": 270
+    },
+    "facing=down,light_level=11,old=false,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 180,
+      "y": 270
+    },
+    "facing=down,light_level=11,old=false,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 180,
+      "y": 270
+    },
+    "facing=down,light_level=11,old=true,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 180,
+      "y": 270
+    },
+    "facing=down,light_level=11,old=true,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 180,
+      "y": 270
+    },
+    "facing=down,light_level=12,old=false,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 180,
+      "y": 270
+    },
+    "facing=down,light_level=12,old=false,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 180,
+      "y": 270
+    },
+    "facing=down,light_level=12,old=true,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 180,
+      "y": 270
+    },
+    "facing=down,light_level=12,old=true,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 180,
+      "y": 270
+    },
+    "facing=down,light_level=13,old=false,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 180,
+      "y": 270
+    },
+    "facing=down,light_level=13,old=false,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 180,
+      "y": 270
+    },
+    "facing=down,light_level=13,old=true,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 180,
+      "y": 270
+    },
+    "facing=down,light_level=13,old=true,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 180,
+      "y": 270
+    },
+    "facing=down,light_level=14,old=false,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 180,
+      "y": 270
+    },
+    "facing=down,light_level=14,old=false,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 180,
+      "y": 270
+    },
+    "facing=down,light_level=14,old=true,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 180,
+      "y": 270
+    },
+    "facing=down,light_level=14,old=true,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 180,
+      "y": 270
+    },
+    "facing=down,light_level=15,old=false,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 180,
+      "y": 270
+    },
+    "facing=down,light_level=15,old=false,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 180,
+      "y": 270
+    },
+    "facing=down,light_level=15,old=true,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 180,
+      "y": 270
+    },
+    "facing=down,light_level=15,old=true,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 180,
+      "y": 270
+    },
+    "facing=down,light_level=2,old=false,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 180,
+      "y": 270
+    },
+    "facing=down,light_level=2,old=false,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 180,
+      "y": 270
+    },
+    "facing=down,light_level=2,old=true,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 180,
+      "y": 270
+    },
+    "facing=down,light_level=2,old=true,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 180,
+      "y": 270
+    },
+    "facing=down,light_level=3,old=false,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 180,
+      "y": 270
+    },
+    "facing=down,light_level=3,old=false,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 180,
+      "y": 270
+    },
+    "facing=down,light_level=3,old=true,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 180,
+      "y": 270
+    },
+    "facing=down,light_level=3,old=true,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 180,
+      "y": 270
+    },
+    "facing=down,light_level=4,old=false,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 180,
+      "y": 270
+    },
+    "facing=down,light_level=4,old=false,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 180,
+      "y": 270
+    },
+    "facing=down,light_level=4,old=true,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 180,
+      "y": 270
+    },
+    "facing=down,light_level=4,old=true,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 180,
+      "y": 270
+    },
+    "facing=down,light_level=5,old=false,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 180,
+      "y": 270
+    },
+    "facing=down,light_level=5,old=false,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 180,
+      "y": 270
+    },
+    "facing=down,light_level=5,old=true,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 180,
+      "y": 270
+    },
+    "facing=down,light_level=5,old=true,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 180,
+      "y": 270
+    },
+    "facing=down,light_level=6,old=false,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 180,
+      "y": 270
+    },
+    "facing=down,light_level=6,old=false,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 180,
+      "y": 270
+    },
+    "facing=down,light_level=6,old=true,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 180,
+      "y": 270
+    },
+    "facing=down,light_level=6,old=true,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 180,
+      "y": 270
+    },
+    "facing=down,light_level=7,old=false,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 180,
+      "y": 270
+    },
+    "facing=down,light_level=7,old=false,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 180,
+      "y": 270
+    },
+    "facing=down,light_level=7,old=true,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 180,
+      "y": 270
+    },
+    "facing=down,light_level=7,old=true,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 180,
+      "y": 270
+    },
+    "facing=down,light_level=8,old=false,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 180,
+      "y": 270
+    },
+    "facing=down,light_level=8,old=false,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 180,
+      "y": 270
+    },
+    "facing=down,light_level=8,old=true,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 180,
+      "y": 270
+    },
+    "facing=down,light_level=8,old=true,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 180,
+      "y": 270
+    },
+    "facing=down,light_level=9,old=false,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 180,
+      "y": 270
+    },
+    "facing=down,light_level=9,old=false,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 180,
+      "y": 270
+    },
+    "facing=down,light_level=9,old=true,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 180,
+      "y": 270
+    },
+    "facing=down,light_level=9,old=true,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 180,
+      "y": 270
+    },
+    "facing=east,light_level=0,old=false,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_off",
+      "x": 90,
+      "y": 270
+    },
+    "facing=east,light_level=0,old=false,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_off",
+      "x": 90,
+      "y": 270
+    },
+    "facing=east,light_level=0,old=true,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_off",
+      "x": 90,
+      "y": 270
+    },
+    "facing=east,light_level=0,old=true,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_off",
+      "x": 90,
+      "y": 270
+    },
+    "facing=east,light_level=1,old=false,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 90,
+      "y": 270
+    },
+    "facing=east,light_level=1,old=false,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 90,
+      "y": 270
+    },
+    "facing=east,light_level=1,old=true,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 90,
+      "y": 270
+    },
+    "facing=east,light_level=1,old=true,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 90,
+      "y": 270
+    },
+    "facing=east,light_level=10,old=false,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 90,
+      "y": 270
+    },
+    "facing=east,light_level=10,old=false,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 90,
+      "y": 270
+    },
+    "facing=east,light_level=10,old=true,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 90,
+      "y": 270
+    },
+    "facing=east,light_level=10,old=true,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 90,
+      "y": 270
+    },
+    "facing=east,light_level=11,old=false,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 90,
+      "y": 270
+    },
+    "facing=east,light_level=11,old=false,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 90,
+      "y": 270
+    },
+    "facing=east,light_level=11,old=true,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 90,
+      "y": 270
+    },
+    "facing=east,light_level=11,old=true,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 90,
+      "y": 270
+    },
+    "facing=east,light_level=12,old=false,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 90,
+      "y": 270
+    },
+    "facing=east,light_level=12,old=false,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 90,
+      "y": 270
+    },
+    "facing=east,light_level=12,old=true,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 90,
+      "y": 270
+    },
+    "facing=east,light_level=12,old=true,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 90,
+      "y": 270
+    },
+    "facing=east,light_level=13,old=false,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 90,
+      "y": 270
+    },
+    "facing=east,light_level=13,old=false,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 90,
+      "y": 270
+    },
+    "facing=east,light_level=13,old=true,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 90,
+      "y": 270
+    },
+    "facing=east,light_level=13,old=true,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 90,
+      "y": 270
+    },
+    "facing=east,light_level=14,old=false,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 90,
+      "y": 270
+    },
+    "facing=east,light_level=14,old=false,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 90,
+      "y": 270
+    },
+    "facing=east,light_level=14,old=true,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 90,
+      "y": 270
+    },
+    "facing=east,light_level=14,old=true,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 90,
+      "y": 270
+    },
+    "facing=east,light_level=15,old=false,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 90,
+      "y": 270
+    },
+    "facing=east,light_level=15,old=false,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 90,
+      "y": 270
+    },
+    "facing=east,light_level=15,old=true,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 90,
+      "y": 270
+    },
+    "facing=east,light_level=15,old=true,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 90,
+      "y": 270
+    },
+    "facing=east,light_level=2,old=false,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 90,
+      "y": 270
+    },
+    "facing=east,light_level=2,old=false,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 90,
+      "y": 270
+    },
+    "facing=east,light_level=2,old=true,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 90,
+      "y": 270
+    },
+    "facing=east,light_level=2,old=true,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 90,
+      "y": 270
+    },
+    "facing=east,light_level=3,old=false,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 90,
+      "y": 270
+    },
+    "facing=east,light_level=3,old=false,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 90,
+      "y": 270
+    },
+    "facing=east,light_level=3,old=true,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 90,
+      "y": 270
+    },
+    "facing=east,light_level=3,old=true,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 90,
+      "y": 270
+    },
+    "facing=east,light_level=4,old=false,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 90,
+      "y": 270
+    },
+    "facing=east,light_level=4,old=false,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 90,
+      "y": 270
+    },
+    "facing=east,light_level=4,old=true,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 90,
+      "y": 270
+    },
+    "facing=east,light_level=4,old=true,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 90,
+      "y": 270
+    },
+    "facing=east,light_level=5,old=false,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 90,
+      "y": 270
+    },
+    "facing=east,light_level=5,old=false,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 90,
+      "y": 270
+    },
+    "facing=east,light_level=5,old=true,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 90,
+      "y": 270
+    },
+    "facing=east,light_level=5,old=true,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 90,
+      "y": 270
+    },
+    "facing=east,light_level=6,old=false,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 90,
+      "y": 270
+    },
+    "facing=east,light_level=6,old=false,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 90,
+      "y": 270
+    },
+    "facing=east,light_level=6,old=true,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 90,
+      "y": 270
+    },
+    "facing=east,light_level=6,old=true,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 90,
+      "y": 270
+    },
+    "facing=east,light_level=7,old=false,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 90,
+      "y": 270
+    },
+    "facing=east,light_level=7,old=false,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 90,
+      "y": 270
+    },
+    "facing=east,light_level=7,old=true,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 90,
+      "y": 270
+    },
+    "facing=east,light_level=7,old=true,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 90,
+      "y": 270
+    },
+    "facing=east,light_level=8,old=false,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 90,
+      "y": 270
+    },
+    "facing=east,light_level=8,old=false,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 90,
+      "y": 270
+    },
+    "facing=east,light_level=8,old=true,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 90,
+      "y": 270
+    },
+    "facing=east,light_level=8,old=true,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 90,
+      "y": 270
+    },
+    "facing=east,light_level=9,old=false,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 90,
+      "y": 270
+    },
+    "facing=east,light_level=9,old=false,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 90,
+      "y": 270
+    },
+    "facing=east,light_level=9,old=true,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 90,
+      "y": 270
+    },
+    "facing=east,light_level=9,old=true,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 90,
+      "y": 270
+    },
+    "facing=north,light_level=0,old=false,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_off",
+      "x": 90,
+      "y": 180
+    },
+    "facing=north,light_level=0,old=false,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_off",
+      "x": 90,
+      "y": 180
+    },
+    "facing=north,light_level=0,old=true,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_off",
+      "x": 90,
+      "y": 180
+    },
+    "facing=north,light_level=0,old=true,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_off",
+      "x": 90,
+      "y": 180
+    },
+    "facing=north,light_level=1,old=false,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 90,
+      "y": 180
+    },
+    "facing=north,light_level=1,old=false,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 90,
+      "y": 180
+    },
+    "facing=north,light_level=1,old=true,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 90,
+      "y": 180
+    },
+    "facing=north,light_level=1,old=true,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 90,
+      "y": 180
+    },
+    "facing=north,light_level=10,old=false,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 90,
+      "y": 180
+    },
+    "facing=north,light_level=10,old=false,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 90,
+      "y": 180
+    },
+    "facing=north,light_level=10,old=true,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 90,
+      "y": 180
+    },
+    "facing=north,light_level=10,old=true,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 90,
+      "y": 180
+    },
+    "facing=north,light_level=11,old=false,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 90,
+      "y": 180
+    },
+    "facing=north,light_level=11,old=false,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 90,
+      "y": 180
+    },
+    "facing=north,light_level=11,old=true,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 90,
+      "y": 180
+    },
+    "facing=north,light_level=11,old=true,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 90,
+      "y": 180
+    },
+    "facing=north,light_level=12,old=false,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 90,
+      "y": 180
+    },
+    "facing=north,light_level=12,old=false,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 90,
+      "y": 180
+    },
+    "facing=north,light_level=12,old=true,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 90,
+      "y": 180
+    },
+    "facing=north,light_level=12,old=true,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 90,
+      "y": 180
+    },
+    "facing=north,light_level=13,old=false,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 90,
+      "y": 180
+    },
+    "facing=north,light_level=13,old=false,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 90,
+      "y": 180
+    },
+    "facing=north,light_level=13,old=true,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 90,
+      "y": 180
+    },
+    "facing=north,light_level=13,old=true,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 90,
+      "y": 180
+    },
+    "facing=north,light_level=14,old=false,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 90,
+      "y": 180
+    },
+    "facing=north,light_level=14,old=false,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 90,
+      "y": 180
+    },
+    "facing=north,light_level=14,old=true,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 90,
+      "y": 180
+    },
+    "facing=north,light_level=14,old=true,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 90,
+      "y": 180
+    },
+    "facing=north,light_level=15,old=false,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 90,
+      "y": 180
+    },
+    "facing=north,light_level=15,old=false,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 90,
+      "y": 180
+    },
+    "facing=north,light_level=15,old=true,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 90,
+      "y": 180
+    },
+    "facing=north,light_level=15,old=true,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 90,
+      "y": 180
+    },
+    "facing=north,light_level=2,old=false,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 90,
+      "y": 180
+    },
+    "facing=north,light_level=2,old=false,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 90,
+      "y": 180
+    },
+    "facing=north,light_level=2,old=true,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 90,
+      "y": 180
+    },
+    "facing=north,light_level=2,old=true,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 90,
+      "y": 180
+    },
+    "facing=north,light_level=3,old=false,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 90,
+      "y": 180
+    },
+    "facing=north,light_level=3,old=false,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 90,
+      "y": 180
+    },
+    "facing=north,light_level=3,old=true,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 90,
+      "y": 180
+    },
+    "facing=north,light_level=3,old=true,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 90,
+      "y": 180
+    },
+    "facing=north,light_level=4,old=false,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 90,
+      "y": 180
+    },
+    "facing=north,light_level=4,old=false,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 90,
+      "y": 180
+    },
+    "facing=north,light_level=4,old=true,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 90,
+      "y": 180
+    },
+    "facing=north,light_level=4,old=true,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 90,
+      "y": 180
+    },
+    "facing=north,light_level=5,old=false,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 90,
+      "y": 180
+    },
+    "facing=north,light_level=5,old=false,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 90,
+      "y": 180
+    },
+    "facing=north,light_level=5,old=true,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 90,
+      "y": 180
+    },
+    "facing=north,light_level=5,old=true,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 90,
+      "y": 180
+    },
+    "facing=north,light_level=6,old=false,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 90,
+      "y": 180
+    },
+    "facing=north,light_level=6,old=false,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 90,
+      "y": 180
+    },
+    "facing=north,light_level=6,old=true,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 90,
+      "y": 180
+    },
+    "facing=north,light_level=6,old=true,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 90,
+      "y": 180
+    },
+    "facing=north,light_level=7,old=false,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 90,
+      "y": 180
+    },
+    "facing=north,light_level=7,old=false,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 90,
+      "y": 180
+    },
+    "facing=north,light_level=7,old=true,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 90,
+      "y": 180
+    },
+    "facing=north,light_level=7,old=true,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 90,
+      "y": 180
+    },
+    "facing=north,light_level=8,old=false,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 90,
+      "y": 180
+    },
+    "facing=north,light_level=8,old=false,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 90,
+      "y": 180
+    },
+    "facing=north,light_level=8,old=true,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 90,
+      "y": 180
+    },
+    "facing=north,light_level=8,old=true,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 90,
+      "y": 180
+    },
+    "facing=north,light_level=9,old=false,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 90,
+      "y": 180
+    },
+    "facing=north,light_level=9,old=false,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 90,
+      "y": 180
+    },
+    "facing=north,light_level=9,old=true,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 90,
+      "y": 180
+    },
+    "facing=north,light_level=9,old=true,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 90,
+      "y": 180
+    },
+    "facing=south,light_level=0,old=false,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_off",
+      "x": 90
+    },
+    "facing=south,light_level=0,old=false,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_off",
+      "x": 90
+    },
+    "facing=south,light_level=0,old=true,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_off",
+      "x": 90
+    },
+    "facing=south,light_level=0,old=true,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_off",
+      "x": 90
+    },
+    "facing=south,light_level=1,old=false,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 90
+    },
+    "facing=south,light_level=1,old=false,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 90
+    },
+    "facing=south,light_level=1,old=true,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 90
+    },
+    "facing=south,light_level=1,old=true,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 90
+    },
+    "facing=south,light_level=10,old=false,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 90
+    },
+    "facing=south,light_level=10,old=false,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 90
+    },
+    "facing=south,light_level=10,old=true,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 90
+    },
+    "facing=south,light_level=10,old=true,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 90
+    },
+    "facing=south,light_level=11,old=false,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 90
+    },
+    "facing=south,light_level=11,old=false,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 90
+    },
+    "facing=south,light_level=11,old=true,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 90
+    },
+    "facing=south,light_level=11,old=true,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 90
+    },
+    "facing=south,light_level=12,old=false,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 90
+    },
+    "facing=south,light_level=12,old=false,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 90
+    },
+    "facing=south,light_level=12,old=true,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 90
+    },
+    "facing=south,light_level=12,old=true,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 90
+    },
+    "facing=south,light_level=13,old=false,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 90
+    },
+    "facing=south,light_level=13,old=false,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 90
+    },
+    "facing=south,light_level=13,old=true,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 90
+    },
+    "facing=south,light_level=13,old=true,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 90
+    },
+    "facing=south,light_level=14,old=false,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 90
+    },
+    "facing=south,light_level=14,old=false,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 90
+    },
+    "facing=south,light_level=14,old=true,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 90
+    },
+    "facing=south,light_level=14,old=true,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 90
+    },
+    "facing=south,light_level=15,old=false,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 90
+    },
+    "facing=south,light_level=15,old=false,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 90
+    },
+    "facing=south,light_level=15,old=true,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 90
+    },
+    "facing=south,light_level=15,old=true,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 90
+    },
+    "facing=south,light_level=2,old=false,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 90
+    },
+    "facing=south,light_level=2,old=false,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 90
+    },
+    "facing=south,light_level=2,old=true,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 90
+    },
+    "facing=south,light_level=2,old=true,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 90
+    },
+    "facing=south,light_level=3,old=false,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 90
+    },
+    "facing=south,light_level=3,old=false,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 90
+    },
+    "facing=south,light_level=3,old=true,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 90
+    },
+    "facing=south,light_level=3,old=true,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 90
+    },
+    "facing=south,light_level=4,old=false,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 90
+    },
+    "facing=south,light_level=4,old=false,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 90
+    },
+    "facing=south,light_level=4,old=true,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 90
+    },
+    "facing=south,light_level=4,old=true,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 90
+    },
+    "facing=south,light_level=5,old=false,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 90
+    },
+    "facing=south,light_level=5,old=false,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 90
+    },
+    "facing=south,light_level=5,old=true,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 90
+    },
+    "facing=south,light_level=5,old=true,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 90
+    },
+    "facing=south,light_level=6,old=false,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 90
+    },
+    "facing=south,light_level=6,old=false,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 90
+    },
+    "facing=south,light_level=6,old=true,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 90
+    },
+    "facing=south,light_level=6,old=true,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 90
+    },
+    "facing=south,light_level=7,old=false,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 90
+    },
+    "facing=south,light_level=7,old=false,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 90
+    },
+    "facing=south,light_level=7,old=true,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 90
+    },
+    "facing=south,light_level=7,old=true,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 90
+    },
+    "facing=south,light_level=8,old=false,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 90
+    },
+    "facing=south,light_level=8,old=false,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 90
+    },
+    "facing=south,light_level=8,old=true,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 90
+    },
+    "facing=south,light_level=8,old=true,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 90
+    },
+    "facing=south,light_level=9,old=false,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 90
+    },
+    "facing=south,light_level=9,old=false,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 90
+    },
+    "facing=south,light_level=9,old=true,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 90
+    },
+    "facing=south,light_level=9,old=true,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 90
+    },
+    "facing=up,light_level=0,old=false,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_off",
+      "y": 270
+    },
+    "facing=up,light_level=0,old=false,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_off",
+      "y": 270
+    },
+    "facing=up,light_level=0,old=true,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_off",
+      "y": 270
+    },
+    "facing=up,light_level=0,old=true,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_off",
+      "y": 270
+    },
+    "facing=up,light_level=1,old=false,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "y": 270
+    },
+    "facing=up,light_level=1,old=false,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "y": 270
+    },
+    "facing=up,light_level=1,old=true,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "y": 270
+    },
+    "facing=up,light_level=1,old=true,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "y": 270
+    },
+    "facing=up,light_level=10,old=false,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "y": 270
+    },
+    "facing=up,light_level=10,old=false,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "y": 270
+    },
+    "facing=up,light_level=10,old=true,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "y": 270
+    },
+    "facing=up,light_level=10,old=true,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "y": 270
+    },
+    "facing=up,light_level=11,old=false,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "y": 270
+    },
+    "facing=up,light_level=11,old=false,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "y": 270
+    },
+    "facing=up,light_level=11,old=true,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "y": 270
+    },
+    "facing=up,light_level=11,old=true,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "y": 270
+    },
+    "facing=up,light_level=12,old=false,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "y": 270
+    },
+    "facing=up,light_level=12,old=false,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "y": 270
+    },
+    "facing=up,light_level=12,old=true,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "y": 270
+    },
+    "facing=up,light_level=12,old=true,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "y": 270
+    },
+    "facing=up,light_level=13,old=false,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "y": 270
+    },
+    "facing=up,light_level=13,old=false,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "y": 270
+    },
+    "facing=up,light_level=13,old=true,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "y": 270
+    },
+    "facing=up,light_level=13,old=true,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "y": 270
+    },
+    "facing=up,light_level=14,old=false,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "y": 270
+    },
+    "facing=up,light_level=14,old=false,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "y": 270
+    },
+    "facing=up,light_level=14,old=true,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "y": 270
+    },
+    "facing=up,light_level=14,old=true,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "y": 270
+    },
+    "facing=up,light_level=15,old=false,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "y": 270
+    },
+    "facing=up,light_level=15,old=false,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "y": 270
+    },
+    "facing=up,light_level=15,old=true,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "y": 270
+    },
+    "facing=up,light_level=15,old=true,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "y": 270
+    },
+    "facing=up,light_level=2,old=false,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "y": 270
+    },
+    "facing=up,light_level=2,old=false,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "y": 270
+    },
+    "facing=up,light_level=2,old=true,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "y": 270
+    },
+    "facing=up,light_level=2,old=true,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "y": 270
+    },
+    "facing=up,light_level=3,old=false,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "y": 270
+    },
+    "facing=up,light_level=3,old=false,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "y": 270
+    },
+    "facing=up,light_level=3,old=true,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "y": 270
+    },
+    "facing=up,light_level=3,old=true,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "y": 270
+    },
+    "facing=up,light_level=4,old=false,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "y": 270
+    },
+    "facing=up,light_level=4,old=false,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "y": 270
+    },
+    "facing=up,light_level=4,old=true,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "y": 270
+    },
+    "facing=up,light_level=4,old=true,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "y": 270
+    },
+    "facing=up,light_level=5,old=false,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "y": 270
+    },
+    "facing=up,light_level=5,old=false,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "y": 270
+    },
+    "facing=up,light_level=5,old=true,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "y": 270
+    },
+    "facing=up,light_level=5,old=true,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "y": 270
+    },
+    "facing=up,light_level=6,old=false,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "y": 270
+    },
+    "facing=up,light_level=6,old=false,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "y": 270
+    },
+    "facing=up,light_level=6,old=true,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "y": 270
+    },
+    "facing=up,light_level=6,old=true,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "y": 270
+    },
+    "facing=up,light_level=7,old=false,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "y": 270
+    },
+    "facing=up,light_level=7,old=false,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "y": 270
+    },
+    "facing=up,light_level=7,old=true,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "y": 270
+    },
+    "facing=up,light_level=7,old=true,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "y": 270
+    },
+    "facing=up,light_level=8,old=false,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "y": 270
+    },
+    "facing=up,light_level=8,old=false,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "y": 270
+    },
+    "facing=up,light_level=8,old=true,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "y": 270
+    },
+    "facing=up,light_level=8,old=true,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "y": 270
+    },
+    "facing=up,light_level=9,old=false,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "y": 270
+    },
+    "facing=up,light_level=9,old=false,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "y": 270
+    },
+    "facing=up,light_level=9,old=true,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "y": 270
+    },
+    "facing=up,light_level=9,old=true,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "y": 270
+    },
+    "facing=west,light_level=0,old=false,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_off",
+      "x": 90,
+      "y": 90
+    },
+    "facing=west,light_level=0,old=false,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_off",
+      "x": 90,
+      "y": 90
+    },
+    "facing=west,light_level=0,old=true,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_off",
+      "x": 90,
+      "y": 90
+    },
+    "facing=west,light_level=0,old=true,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_off",
+      "x": 90,
+      "y": 90
+    },
+    "facing=west,light_level=1,old=false,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 90,
+      "y": 90
+    },
+    "facing=west,light_level=1,old=false,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 90,
+      "y": 90
+    },
+    "facing=west,light_level=1,old=true,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 90,
+      "y": 90
+    },
+    "facing=west,light_level=1,old=true,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 90,
+      "y": 90
+    },
+    "facing=west,light_level=10,old=false,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 90,
+      "y": 90
+    },
+    "facing=west,light_level=10,old=false,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 90,
+      "y": 90
+    },
+    "facing=west,light_level=10,old=true,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 90,
+      "y": 90
+    },
+    "facing=west,light_level=10,old=true,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 90,
+      "y": 90
+    },
+    "facing=west,light_level=11,old=false,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 90,
+      "y": 90
+    },
+    "facing=west,light_level=11,old=false,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 90,
+      "y": 90
+    },
+    "facing=west,light_level=11,old=true,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 90,
+      "y": 90
+    },
+    "facing=west,light_level=11,old=true,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 90,
+      "y": 90
+    },
+    "facing=west,light_level=12,old=false,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 90,
+      "y": 90
+    },
+    "facing=west,light_level=12,old=false,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 90,
+      "y": 90
+    },
+    "facing=west,light_level=12,old=true,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 90,
+      "y": 90
+    },
+    "facing=west,light_level=12,old=true,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 90,
+      "y": 90
+    },
+    "facing=west,light_level=13,old=false,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 90,
+      "y": 90
+    },
+    "facing=west,light_level=13,old=false,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 90,
+      "y": 90
+    },
+    "facing=west,light_level=13,old=true,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 90,
+      "y": 90
+    },
+    "facing=west,light_level=13,old=true,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 90,
+      "y": 90
+    },
+    "facing=west,light_level=14,old=false,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 90,
+      "y": 90
+    },
+    "facing=west,light_level=14,old=false,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 90,
+      "y": 90
+    },
+    "facing=west,light_level=14,old=true,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 90,
+      "y": 90
+    },
+    "facing=west,light_level=14,old=true,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 90,
+      "y": 90
+    },
+    "facing=west,light_level=15,old=false,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 90,
+      "y": 90
+    },
+    "facing=west,light_level=15,old=false,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 90,
+      "y": 90
+    },
+    "facing=west,light_level=15,old=true,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 90,
+      "y": 90
+    },
+    "facing=west,light_level=15,old=true,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 90,
+      "y": 90
+    },
+    "facing=west,light_level=2,old=false,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 90,
+      "y": 90
+    },
+    "facing=west,light_level=2,old=false,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 90,
+      "y": 90
+    },
+    "facing=west,light_level=2,old=true,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 90,
+      "y": 90
+    },
+    "facing=west,light_level=2,old=true,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 90,
+      "y": 90
+    },
+    "facing=west,light_level=3,old=false,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 90,
+      "y": 90
+    },
+    "facing=west,light_level=3,old=false,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 90,
+      "y": 90
+    },
+    "facing=west,light_level=3,old=true,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 90,
+      "y": 90
+    },
+    "facing=west,light_level=3,old=true,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 90,
+      "y": 90
+    },
+    "facing=west,light_level=4,old=false,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 90,
+      "y": 90
+    },
+    "facing=west,light_level=4,old=false,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 90,
+      "y": 90
+    },
+    "facing=west,light_level=4,old=true,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 90,
+      "y": 90
+    },
+    "facing=west,light_level=4,old=true,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 90,
+      "y": 90
+    },
+    "facing=west,light_level=5,old=false,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 90,
+      "y": 90
+    },
+    "facing=west,light_level=5,old=false,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 90,
+      "y": 90
+    },
+    "facing=west,light_level=5,old=true,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 90,
+      "y": 90
+    },
+    "facing=west,light_level=5,old=true,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 90,
+      "y": 90
+    },
+    "facing=west,light_level=6,old=false,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 90,
+      "y": 90
+    },
+    "facing=west,light_level=6,old=false,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 90,
+      "y": 90
+    },
+    "facing=west,light_level=6,old=true,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 90,
+      "y": 90
+    },
+    "facing=west,light_level=6,old=true,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 90,
+      "y": 90
+    },
+    "facing=west,light_level=7,old=false,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 90,
+      "y": 90
+    },
+    "facing=west,light_level=7,old=false,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 90,
+      "y": 90
+    },
+    "facing=west,light_level=7,old=true,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 90,
+      "y": 90
+    },
+    "facing=west,light_level=7,old=true,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 90,
+      "y": 90
+    },
+    "facing=west,light_level=8,old=false,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 90,
+      "y": 90
+    },
+    "facing=west,light_level=8,old=false,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 90,
+      "y": 90
+    },
+    "facing=west,light_level=8,old=true,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 90,
+      "y": 90
+    },
+    "facing=west,light_level=8,old=true,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 90,
+      "y": 90
+    },
+    "facing=west,light_level=9,old=false,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 90,
+      "y": 90
+    },
+    "facing=west,light_level=9,old=false,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_new_on",
+      "x": 90,
+      "y": 90
+    },
+    "facing=west,light_level=9,old=true,waterlogged=false": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 90,
+      "y": 90
+    },
+    "facing=west,light_level=9,old=true,waterlogged=true": {
+      "model": "ddcl:block/red_copper_dimmable_lamp_old_on",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "L": {
+      "item": "minecraft:torch"
+    },
+    "N": {
+      "tag": "forge:nuggets/gold"
+    },
+    "P": {
+      "tag": "forge:plates/gold"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "pattern": [
+    " N ",
+    " L ",
+    "RPR"
+  ],
+  "result": {
+    "item": "ddcl:yellow_gold_dimmable_lamp"
+  },
+  "show_notification": true
+}

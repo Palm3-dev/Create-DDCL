@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "L": {
+      "item": "minecraft:glow_berries"
+    },
+    "N": {
+      "tag": "forge:nuggets/copper"
+    },
+    "P": {
+      "tag": "forge:plates/copper"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "pattern": [
+    " N ",
+    " L ",
+    "RPR"
+  ],
+  "result": {
+    "item": "ddcl:green_copper_dimmable_lamp"
+  },
+  "show_notification": true
+}

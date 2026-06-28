@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "L": {
+      "item": "minecraft:soul_torch"
+    },
+    "N": {
+      "tag": "forge:nuggets/zinc"
+    },
+    "P": {
+      "tag": "forge:plates/zinc"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "pattern": [
+    " N ",
+    " L ",
+    "RPR"
+  ],
+  "result": {
+    "item": "ddcl:blue_zinc_dimmable_lamp"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "L": {
+      "item": "minecraft:redstone_torch"
+    },
+    "N": {
+      "tag": "forge:nuggets/industrial_iron"
+    },
+    "P": {
+      "tag": "forge:plates/industrial_iron"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "pattern": [
+    " N ",
+    " L ",
+    "RPR"
+  ],
+  "result": {
+    "item": "ddcl:red_industrial_iron_dimmable_lamp"
+  },
+  "show_notification": true
+}

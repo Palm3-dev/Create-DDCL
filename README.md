@@ -47,7 +47,7 @@ The installation process of this mod is the same as every other mod: install thi
 in your mods folder.
 
 ## Euphoria Patches Compat
-The mod is currently added to Euphoria Patches, but only for version 1.0.3 and higher.
+The mod is currently added to [Euphoria Patches](https://modrinth.com/mod/euphoria-patches), but only works from version 1.0.3 and higher.
 I removed the old versions since those are deprecated and it was making the euphoria files a big mess.
 
 The colored lights also work with the lower light levels, so you can spice up your builds with shaders!

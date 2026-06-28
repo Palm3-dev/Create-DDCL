@@ -249,12 +249,6 @@ public class DDCLBlocks {
                         .save(p, "blue_netherite_dimmable_lamp_from_industrial_iron");
             })
             .register();
-
-    public static final BlockEntry<Block> TEST = DDCL_REGISTRATE
-            .block("test", Block::new)
-            .blockstate((c, p) -> p.simpleBlock(c.get()))
-            .simpleItem()
-            .register();
     
     
 

@@ -1,0 +1,14 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": ""
+    }
+  ],
+  "results": [
+    {
+      "item": "ddcl:netherite_sheet",
+      "count": 1
+    }
+  ]
+}

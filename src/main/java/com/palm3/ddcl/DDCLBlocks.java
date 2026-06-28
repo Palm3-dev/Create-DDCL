@@ -12,7 +12,7 @@ import net.minecraft.world.level.block.Block;
 
 import static com.palm3.ddcl.DDCLMain.DDCL_REGISTRATE;
 import static com.palm3.ddcl.base.Helpers.decoParentLamp;
-import static com.palm3.ddcl.base.Helpers.neoItemTag;
+import static com.palm3.ddcl.base.Helpers.forgeItemTag;
 import static com.tterrag.registrate.providers.RegistrateRecipeProvider.has;
 
 public class DDCLBlocks {
@@ -175,10 +175,10 @@ public class DDCLBlocks {
                         .pattern(" N ")
                         .pattern(" L ")
                         .pattern("RPR")
-                        .define('N', neoItemTag("nuggets/netherite"))
+                        .define('N', forgeItemTag("nuggets/netherite"))
                         .define('L', Items.GLOW_BERRIES)
                         .define('R', Items.REDSTONE)
-                        .define('P', neoItemTag("plates/netherite"))
+                        .define('P', forgeItemTag("plates/netherite"))
                         .unlockedBy("has_redstone", has(Items.REDSTONE))
                         .save(p, "green_netherite_dimmable_lamp_from_industrial_iron");
             })
@@ -197,10 +197,10 @@ public class DDCLBlocks {
                         .pattern(" N ")
                         .pattern(" L ")
                         .pattern("RPR")
-                        .define('N', neoItemTag("nuggets/netherite"))
+                        .define('N', forgeItemTag("nuggets/netherite"))
                         .define('L', Items.TORCH)
                         .define('R', Items.REDSTONE)
-                        .define('P', neoItemTag("plates/netherite"))
+                        .define('P', forgeItemTag("plates/netherite"))
                         .unlockedBy("has_redstone", has(Items.REDSTONE))
                         .save(p, "yellow_netherite_dimmable_lamp_from_industrial_iron");
             })
@@ -219,10 +219,10 @@ public class DDCLBlocks {
                         .pattern(" N ")
                         .pattern(" L ")
                         .pattern("RPR")
-                        .define('N', neoItemTag("nuggets/netherite"))
+                        .define('N', forgeItemTag("nuggets/netherite"))
                         .define('L', Items.REDSTONE_TORCH)
                         .define('R', Items.REDSTONE)
-                        .define('P', neoItemTag("plates/netherite"))
+                        .define('P', forgeItemTag("plates/netherite"))
                         .unlockedBy("has_redstone", has(Items.REDSTONE))
                         .save(p, "red_netherite_dimmable_lamp_from_industrial_iron");
             })
@@ -241,10 +241,10 @@ public class DDCLBlocks {
                         .pattern(" N ")
                         .pattern(" L ")
                         .pattern("RPR")
-                        .define('N', neoItemTag("nuggets/netherite"))
+                        .define('N', forgeItemTag("nuggets/netherite"))
                         .define('L', Items.SOUL_TORCH)
                         .define('R', Items.REDSTONE)
-                        .define('P', neoItemTag("plates/netherite"))
+                        .define('P', forgeItemTag("plates/netherite"))
                         .unlockedBy("has_redstone", has(Items.REDSTONE))
                         .save(p, "blue_netherite_dimmable_lamp_from_industrial_iron");
             })

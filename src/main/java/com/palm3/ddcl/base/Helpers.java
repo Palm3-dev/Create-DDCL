@@ -30,8 +30,8 @@ import static com.tterrag.registrate.providers.RegistrateRecipeProvider.has;
 @SuppressWarnings("deprecated, removal")
 public class Helpers {
 
-    public static TagKey<Item> neoItemTag(String tag) {
-        return ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", tag));
+    public static TagKey<Item> forgeItemTag(String tag) {
+        return ItemTags.create(ResourceLocation.fromNamespaceAndPath("forge", tag));
     }
     public static TagKey<Item> modItemTag(String tag) {
         return ItemTags.create(ResourceLocation.fromNamespaceAndPath(MOD_ID, tag));
@@ -83,24 +83,24 @@ public class Helpers {
         // Crafting
         TagKey<Item> nugget = switch (lampMaterial) {
             case ANDESITE -> modItemTag("andesite_nugget");
-            case COPPER -> neoItemTag("nuggets/copper");
-            case BRASS -> neoItemTag("nuggets/brass");
-            case ZINC -> neoItemTag("nuggets/zinc");
-            case IRON -> neoItemTag("nuggets/iron");
-            case INDUSTRIAL_IRON -> neoItemTag("nuggets/industrial_iron");
-            case GOLD -> neoItemTag("nuggets/gold");
-            case NETHERITE -> neoItemTag("nuggets/netherite");
+            case COPPER -> forgeItemTag("nuggets/copper");
+            case BRASS -> forgeItemTag("nuggets/brass");
+            case ZINC -> forgeItemTag("nuggets/zinc");
+            case IRON -> forgeItemTag("nuggets/iron");
+            case INDUSTRIAL_IRON -> forgeItemTag("nuggets/industrial_iron");
+            case GOLD -> forgeItemTag("nuggets/gold");
+            case NETHERITE -> forgeItemTag("nuggets/netherite");
         };
 
         TagKey<Item> plate = switch (lampMaterial) {
             case ANDESITE -> modItemTag("andesite_sheet");
-            case COPPER -> neoItemTag("plates/copper");
-            case BRASS -> neoItemTag("plates/brass");
-            case ZINC -> neoItemTag("plates/zinc");
-            case IRON -> neoItemTag("plates/iron");
-            case INDUSTRIAL_IRON -> neoItemTag("plates/industrial_iron");
-            case GOLD -> neoItemTag("plates/gold");
-            case NETHERITE -> neoItemTag("plates/netherite");
+            case COPPER -> forgeItemTag("plates/copper");
+            case BRASS -> forgeItemTag("plates/brass");
+            case ZINC -> forgeItemTag("plates/zinc");
+            case IRON -> forgeItemTag("plates/iron");
+            case INDUSTRIAL_IRON -> forgeItemTag("plates/industrial_iron");
+            case GOLD -> forgeItemTag("plates/gold");
+            case NETHERITE -> forgeItemTag("plates/netherite");
         };
 
         Item lightSource = switch (lampColor) {

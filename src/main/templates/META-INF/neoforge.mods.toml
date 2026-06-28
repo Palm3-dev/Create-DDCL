@@ -11,6 +11,7 @@ description='''
 Adds dimmable versions of cage lamps from Create: Deco.
 '''
 logoFile= "icon.png"
+displayURL="https://modrinth.com/mod/create-ddcl"
 
 [[dependencies.${mod_id}]]
     modId="neoforge"
